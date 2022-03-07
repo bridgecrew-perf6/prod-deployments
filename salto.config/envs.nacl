@@ -1,4 +1,31 @@
 envs {
   envs = [
+    {
+      name = "Production"
+      services = [
+        "salesforce",
+      ]
+      accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
+    {
+      name = "UAT Sandbox"
+      services = [
+        "salesforce",
+      ]
+      accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
+    {
+      name = "Dev Sandbox"
+      services = [
+        "salesforce",
+      ]
+      accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
   ]
 }
