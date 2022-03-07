@@ -1,0 +1,5 @@
+workspace {
+  uid = "e5deb6ad-d19a-4aac-83a0-88a56e9e2467"
+  name = "Deployments"
+  staleStateThresholdMinutes = undefined
+}
